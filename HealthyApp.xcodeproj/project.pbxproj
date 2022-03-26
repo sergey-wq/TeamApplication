@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5C0D98C27EFACD500D849FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D98B27EFACD500D849FA /* LoginViewController.swift */; };
+		A5C0D98E27EFAD7900D849FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D98D27EFAD7900D849FA /* User.swift */; };
 		F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302449E27EF75DC002C0277 /* AppDelegate.swift */; };
 		F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30244A027EF75DC002C0277 /* SceneDelegate.swift */; };
-		F30244A327EF75DC002C0277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30244A227EF75DC002C0277 /* ViewController.swift */; };
 		F30244A627EF75DC002C0277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30244A427EF75DC002C0277 /* Main.storyboard */; };
 		F30244A827EF75DD002C0277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30244A727EF75DD002C0277 /* Assets.xcassets */; };
 		F30244AB27EF75DD002C0277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30244A927EF75DD002C0277 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5C0D98B27EFACD500D849FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5C0D98D27EFAD7900D849FA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F302449B27EF75DC002C0277 /* HealthyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F302449E27EF75DC002C0277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F30244A027EF75DC002C0277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F30244A227EF75DC002C0277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F30244A527EF75DC002C0277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F30244A727EF75DD002C0277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30244AA27EF75DD002C0277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5C0D98F27EFAD8700D849FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0D98D27EFAD7900D849FA /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F302449227EF75DC002C0277 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +66,9 @@
 		F302449D27EF75DC002C0277 /* HealthyApp */ = {
 			isa = PBXGroup;
 			children = (
-				F30244B227EF762A002C0277 /* Controllers */,
 				F30244B327EF7636002C0277 /* Storyboards */,
+				F30244B227EF762A002C0277 /* Controllers */,
+				A5C0D98F27EFAD8700D849FA /* Models */,
 				F30244B527EF7662002C0277 /* App */,
 				F30244B427EF7647002C0277 /* Resources */,
 			);
@@ -67,7 +78,7 @@
 		F30244B227EF762A002C0277 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F30244A227EF75DC002C0277 /* ViewController.swift */,
+				A5C0D98B27EFACD500D849FA /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,9 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30244A327EF75DC002C0277 /* ViewController.swift in Sources */,
+				A5C0D98C27EFACD500D849FA /* LoginViewController.swift in Sources */,
 				F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */,
 				F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */,
+				A5C0D98E27EFAD7900D849FA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
