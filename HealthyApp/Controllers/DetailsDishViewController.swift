@@ -32,6 +32,10 @@ extension DetailsDishViewController: UITableViewDataSource {
         dish.ingridients.count
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        "Состав блюда:"
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ingredients details", for: indexPath)
