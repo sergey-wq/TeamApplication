@@ -14,6 +14,7 @@
 		F30244A827EF75DD002C0277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30244A727EF75DD002C0277 /* Assets.xcassets */; };
 		F30244AB27EF75DD002C0277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30244A927EF75DD002C0277 /* LaunchScreen.storyboard */; };
 		F38D580027F5E142005B7B1F /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = F38D57FF27F5E142005B7B1F /* Utilities */; };
+		F38D580227F5FD16005B7B1F /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38D580127F5FD16005B7B1F /* MainScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F30244AA27EF75DD002C0277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F30244AC27EF75DD002C0277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F38D57FF27F5E142005B7B1F /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		F38D580127F5FD16005B7B1F /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				F30244A427EF75DC002C0277 /* Main.storyboard */,
 				F30244A927EF75DD002C0277 /* LaunchScreen.storyboard */,
+				F38D580127F5FD16005B7B1F /* MainScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30244AB27EF75DD002C0277 /* LaunchScreen.storyboard in Resources */,
+				F38D580227F5FD16005B7B1F /* MainScreen.storyboard in Resources */,
 				F38D580027F5E142005B7B1F /* Utilities in Resources */,
 				F30244A827EF75DD002C0277 /* Assets.xcassets in Resources */,
 				F30244A627EF75DC002C0277 /* Main.storyboard in Resources */,
