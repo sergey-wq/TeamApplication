@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B00007527F4EED700450342 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00007427F4EED700450342 /* MessageTableViewCell.swift */; };
+		5B1EBFF227F2453D007BCE4A /* HotLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EBFF127F2453D007BCE4A /* HotLineViewController.swift */; };
+		5BBC78A227F3833B0055CEF8 /* HotLineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC78A127F3833B0055CEF8 /* HotLineTableViewController.swift */; };
 		F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302449E27EF75DC002C0277 /* AppDelegate.swift */; };
 		F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30244A027EF75DC002C0277 /* SceneDelegate.swift */; };
 		F30244A327EF75DC002C0277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30244A227EF75DC002C0277 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B00007427F4EED700450342 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		5B1EBFF127F2453D007BCE4A /* HotLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLineViewController.swift; sourceTree = "<group>"; };
+		5BBC78A127F3833B0055CEF8 /* HotLineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLineTableViewController.swift; sourceTree = "<group>"; };
 		F302449B27EF75DC002C0277 /* HealthyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F302449E27EF75DC002C0277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F30244A027EF75DC002C0277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				F30244A227EF75DC002C0277 /* ViewController.swift */,
+				5B1EBFF127F2453D007BCE4A /* HotLineViewController.swift */,
+				5BBC78A127F3833B0055CEF8 /* HotLineTableViewController.swift */,
+				5B00007427F4EED700450342 /* MessageTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1EBFF227F2453D007BCE4A /* HotLineViewController.swift in Sources */,
 				F30244A327EF75DC002C0277 /* ViewController.swift in Sources */,
+				5BBC78A227F3833B0055CEF8 /* HotLineTableViewController.swift in Sources */,
 				F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */,
 				F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */,
+				5B00007527F4EED700450342 /* MessageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
