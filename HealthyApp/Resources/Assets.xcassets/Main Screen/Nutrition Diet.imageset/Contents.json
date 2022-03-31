@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kisspng-weight-loss-apple-diet-health-food-healthy-food-5abe09dc2fa641.4147150215224038041952.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kisspng-weight-loss-apple-diet-health-food-healthy-food-5abe09dc2fa641.4147150215224038041952-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kisspng-weight-loss-apple-diet-health-food-healthy-food-5abe09dc2fa641.4147150215224038041952-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
