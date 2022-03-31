@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kisspng-cartoon-physician-clip-art-doctor-tools-5b25a0f8ae6740.5870919215291926967144.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kisspng-cartoon-physician-clip-art-doctor-tools-5b25a0f8ae6740.5870919215291926967144-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kisspng-cartoon-physician-clip-art-doctor-tools-5b25a0f8ae6740.5870919215291926967144-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
