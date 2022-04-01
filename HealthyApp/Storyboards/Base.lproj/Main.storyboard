@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-135" y="69"/>
         </scene>
-        <!--Список блюд на неделю-->
+        <!--List of meals for the week-->
         <scene sceneID="gbz-gF-18v">
             <objects>
                 <tableViewController id="d3A-oG-GJi" customClass="RecommendedDietTableViewController" customModule="HealthyApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="d3A-oG-GJi" id="LzI-dS-mEX"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Список блюд на неделю" id="VyX-wH-HQV"/>
+                    <navigationItem key="navigationItem" title="List of meals for the week" id="VyX-wH-HQV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E2E-fD-3fG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
