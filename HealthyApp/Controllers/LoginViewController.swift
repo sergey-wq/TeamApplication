@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addVerticalGradientLayer(topColor: .green, bottomColor: .blue)
         logInButton.layer.cornerRadius = logInButton.bounds.height / 3
     }
     

@@ -1,11 +1,9 @@
 //
 //  Extension + UIView.swift
-//  LoginApp
+//  HealthyApp
 //
-//  Created by Alexey Efimov on 02.04.2021.
-//  Copyright © 2021 Alexey Efimov. All rights reserved.
+//  Created by Daniil on 26.03.22.
 //
-
 import UIKit
 
 // MARK: - Set background color

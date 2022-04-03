@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56716FB27F89D7E0098184B /* DietScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56716FA27F89D7E0098184B /* DietScreen.storyboard */; };
+		A56716FD27F89DA60098184B /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56716FC27F89DA60098184B /* DietViewController.swift */; };
 		A5C0D98C27EFACD500D849FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D98B27EFACD500D849FA /* LoginViewController.swift */; };
 		A5C0D98E27EFAD7900D849FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D98D27EFAD7900D849FA /* User.swift */; };
 		F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302449E27EF75DC002C0277 /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A56716FA27F89D7E0098184B /* DietScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DietScreen.storyboard; sourceTree = "<group>"; };
+		A56716FC27F89DA60098184B /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
 		A5C0D98B27EFACD500D849FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A5C0D98D27EFAD7900D849FA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F302449B27EF75DC002C0277 /* HealthyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +91,7 @@
 			children = (
 				F30244A227EF75DC002C0277 /* MainScreenViewController.swift */,
 				A5C0D98B27EFACD500D849FA /* LoginViewController.swift */,
+				A56716FC27F89DA60098184B /* DietViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -94,9 +99,10 @@
 		F30244B327EF7636002C0277 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				F30244A427EF75DC002C0277 /* Main.storyboard */,
 				F30244A927EF75DD002C0277 /* LaunchScreen.storyboard */,
+				F30244A427EF75DC002C0277 /* Main.storyboard */,
 				F38D580127F5FD16005B7B1F /* MainScreen.storyboard */,
+				A56716FA27F89D7E0098184B /* DietScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			files = (
 				F30244AB27EF75DD002C0277 /* LaunchScreen.storyboard in Resources */,
 				F38D580227F5FD16005B7B1F /* MainScreen.storyboard in Resources */,
+				A56716FB27F89D7E0098184B /* DietScreen.storyboard in Resources */,
 				F38D580027F5E142005B7B1F /* Utilities in Resources */,
 				F30244A827EF75DD002C0277 /* Assets.xcassets in Resources */,
 				F30244A627EF75DC002C0277 /* Main.storyboard in Resources */,
@@ -194,6 +201,7 @@
 			files = (
 				F30244A327EF75DC002C0277 /* MainScreenViewController.swift in Sources */,
 				A5C0D98C27EFACD500D849FA /* LoginViewController.swift in Sources */,
+				A56716FD27F89DA60098184B /* DietViewController.swift in Sources */,
 				F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */,
 				F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */,
 				A5C0D98E27EFAD7900D849FA /* User.swift in Sources */,
