@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B00007527F4EED700450342 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00007427F4EED700450342 /* MessageTableViewCell.swift */; };
+		5B00007727F9E05600450342 /* ExerciseStress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B00007627F9E05600450342 /* ExerciseStress.storyboard */; };
+		5B00007B27F9E35000450342 /* ExerciseSressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00007A27F9E35000450342 /* ExerciseSressTableViewController.swift */; };
+		5B00007D27F9FE5A00450342 /* ExerciseStressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00007C27F9FE5A00450342 /* ExerciseStressViewController.swift */; };
+		5B00007F27FA054A00450342 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B00007E27FA054A00450342 /* Media.xcassets */; };
+		5B00008127FA218A00450342 /* OpenImageEXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00008027FA218A00450342 /* OpenImageEXViewController.swift */; };
 		5B1EBFF227F2453D007BCE4A /* HotLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EBFF127F2453D007BCE4A /* HotLineViewController.swift */; };
-		5BBC78A227F3833B0055CEF8 /* HotLineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC78A127F3833B0055CEF8 /* HotLineTableViewController.swift */; };
 		F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302449E27EF75DC002C0277 /* AppDelegate.swift */; };
 		F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30244A027EF75DC002C0277 /* SceneDelegate.swift */; };
 		F30244A327EF75DC002C0277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30244A227EF75DC002C0277 /* ViewController.swift */; };
@@ -20,8 +24,12 @@
 
 /* Begin PBXFileReference section */
 		5B00007427F4EED700450342 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		5B00007627F9E05600450342 /* ExerciseStress.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExerciseStress.storyboard; sourceTree = "<group>"; };
+		5B00007A27F9E35000450342 /* ExerciseSressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSressTableViewController.swift; sourceTree = "<group>"; };
+		5B00007C27F9FE5A00450342 /* ExerciseStressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStressViewController.swift; sourceTree = "<group>"; };
+		5B00007E27FA054A00450342 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5B00008027FA218A00450342 /* OpenImageEXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenImageEXViewController.swift; sourceTree = "<group>"; };
 		5B1EBFF127F2453D007BCE4A /* HotLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLineViewController.swift; sourceTree = "<group>"; };
-		5BBC78A127F3833B0055CEF8 /* HotLineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotLineTableViewController.swift; sourceTree = "<group>"; };
 		F302449B27EF75DC002C0277 /* HealthyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F302449E27EF75DC002C0277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F30244A027EF75DC002C0277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B00008227FA219100450342 /* ExerciseSress */ = {
+			isa = PBXGroup;
+			children = (
+				5B00007A27F9E35000450342 /* ExerciseSressTableViewController.swift */,
+				5B00007C27F9FE5A00450342 /* ExerciseStressViewController.swift */,
+				5B00008027FA218A00450342 /* OpenImageEXViewController.swift */,
+			);
+			path = ExerciseSress;
+			sourceTree = "<group>";
+		};
 		F302449227EF75DC002C0277 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +91,9 @@
 		F30244B227EF762A002C0277 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5B00008227FA219100450342 /* ExerciseSress */,
 				F30244A227EF75DC002C0277 /* ViewController.swift */,
 				5B1EBFF127F2453D007BCE4A /* HotLineViewController.swift */,
-				5BBC78A127F3833B0055CEF8 /* HotLineTableViewController.swift */,
 				5B00007427F4EED700450342 /* MessageTableViewCell.swift */,
 			);
 			path = Controllers;
@@ -85,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F30244A427EF75DC002C0277 /* Main.storyboard */,
+				5B00007627F9E05600450342 /* ExerciseStress.storyboard */,
 				F30244A927EF75DD002C0277 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -93,6 +112,7 @@
 		F30244B427EF7647002C0277 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B00007E27FA054A00450342 /* Media.xcassets */,
 				F30244AC27EF75DD002C0277 /* Info.plist */,
 				F30244A727EF75DD002C0277 /* Assets.xcassets */,
 			);
@@ -166,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B00007F27FA054A00450342 /* Media.xcassets in Resources */,
+				5B00007727F9E05600450342 /* ExerciseStress.storyboard in Resources */,
 				F30244AB27EF75DD002C0277 /* LaunchScreen.storyboard in Resources */,
 				F30244A827EF75DD002C0277 /* Assets.xcassets in Resources */,
 				F30244A627EF75DC002C0277 /* Main.storyboard in Resources */,
@@ -179,11 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B00007B27F9E35000450342 /* ExerciseSressTableViewController.swift in Sources */,
 				5B1EBFF227F2453D007BCE4A /* HotLineViewController.swift in Sources */,
 				F30244A327EF75DC002C0277 /* ViewController.swift in Sources */,
-				5BBC78A227F3833B0055CEF8 /* HotLineTableViewController.swift in Sources */,
+				5B00008127FA218A00450342 /* OpenImageEXViewController.swift in Sources */,
 				F302449F27EF75DC002C0277 /* AppDelegate.swift in Sources */,
 				F30244A127EF75DC002C0277 /* SceneDelegate.swift in Sources */,
+				5B00007D27F9FE5A00450342 /* ExerciseStressViewController.swift in Sources */,
 				5B00007527F4EED700450342 /* MessageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,12 +357,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M29X8436L3;
+				DEVELOPMENT_TEAM = U2CVC8W4ZQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HealthyApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ExerciseStress;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -350,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -361,12 +385,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M29X8436L3;
+				DEVELOPMENT_TEAM = U2CVC8W4ZQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HealthyApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ExerciseStress;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -378,7 +402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
