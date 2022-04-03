@@ -18,9 +18,11 @@ struct Person {
     
     let name: String
     let surname: String
-    let glucoseLevel: Int
+    let age: Int
     let height: Int
     let weight: Int
+    let glucoseLevel: Int
+    
     var fullname: String {
         "\(name) \(surname)"
     }
@@ -32,9 +34,10 @@ struct Person {
             person: Person(
                 name: "Ivan",
                 surname: "Ivanov",
-                glucoseLevel: 7,
+                age: 21,
                 height: 180,
-                weight: 73
+                weight: 73,
+                glucoseLevel: 7
             )
         )
     }
